@@ -17,4 +17,33 @@
         android:id="@+id/detailTextView"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Say hi to intern"
+        android:id="@+id/hiButton"
+        android:layout_below="@+id/detailTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send intern to lunch"
+        android:id="@+id/lunchButton"
+        android:layout_below="@+id/hiButton"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check on intern"
+        android:id="@+id/checkOnButton"
+        android:layout_below="@+id/lunchButton"
+        android:layout_centerHorizontal="true"/>
+
 </RelativeLayout>

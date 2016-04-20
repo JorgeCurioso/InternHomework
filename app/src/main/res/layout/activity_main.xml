@@ -12,16 +12,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Detroit Labs!"
+        android:text="George"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:textSize="24dp"
+        android:textSize="48dp"
         android:id="@+id/mainTextView" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Take me to a new Activity"
+        android:text="See list of all interns"
         android:id="@+id/newActivityButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />

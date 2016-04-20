@@ -11,15 +11,20 @@ public class Intern {
     public boolean brainIsMelting;
 
     // Methods - Action the object can take
-    public void eatLunch() {
+    public String sayHi() {
+        String message = String.format("%s says hello!", name);
+        return message;
+    }
+
+    public String eatLunch() {
         String message = String.format("%s goes chomp chomp", name);
-        Log.d("This is the message:", message);
         brainIsMelting = false;
+        return message;
     }
 
     public String checkIn()    {
         Random randomGenerator = new Random();
-        int randomNumber = randomGenerator.nextInt(3);
+        int randomNumber = randomGenerator.nextInt(4);
         switch (randomNumber)   {
             case 0:
                 return String.format("%s is hacking away, beep boop beep", name);
@@ -31,7 +36,6 @@ public class Intern {
                 return String.format("%s is crying in the stairwell", name);
         }
     }
-
 
 
 }
